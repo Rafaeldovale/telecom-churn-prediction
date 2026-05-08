@@ -16,10 +16,7 @@ During the analysis, we identified the main churn drivers:
 - **Financial Impact:** Churn is more frequent among customers with higher monthly charges.
 
 <p align="center">
-<<<<<<< Updated upstream
-  <img src="../images/churn_by_contract_type.png" width="400" alt="Churn by Contract" />
-  <img src="../images/monthly_charges_boxplot.png" width="400" alt="Charges Distribution" />
-=======
+
   <img src="images/churn_by_contract_type.png" width="400" alt="Churn by Contract" />
   <img src="images/monthly_charges_boxplot.png" width="400" alt="Charges Distribution" />
 >>>>>>> Stashed changes
@@ -35,15 +32,11 @@ For this business problem, we prioritized **Recall**. The goal is to capture as 
 | **XGBoost** | 0.68 | 0.53 | Robust model, but Recall was below target |
 | **Random Forest** | 0.52 | 0.63 | Poor performance on the minority class |
 
-![Model Comparison](images/05_model_comparison_recall.png)
+![Model Comparison](images/model_comparison_recall.png)
 
 ## 🏆 Technical Conclusion
-<<<<<<< Updated upstream
-**Balanced Logistic Regression** was selected as the final solution. With a **Recall of 0.80**, the model successfully identifies 8 out of 10 potential churners. The implementation 
-of **StandardScaler** was crucial to ensure algorithm convergence.
-=======
+
 **Balanced Logistic Regression** was selected as the final solution. With a **Recall of 0.80**, the model successfully identifies 8 out of 10 potential churners. The implementation of **StandardScaler** was crucial to ensure algorithm convergence.
->>>>>>> Stashed changes
 
 ## 📂 Repository Structure
 - `notebooks/`: Full development Jupyter Notebooks.
@@ -52,8 +45,6 @@ of **StandardScaler** was crucial to ensure algorithm convergence.
 - `scaler.pkl`: Scaler object required for new predictions.
 
 ---
-<<<<<<< Updated upstream
+
 **Developed by Rafael Bezerra do Vale** *Data Scientist in Career Transition | Systems Analysis & Development Background*
-=======
-**Developed by Rafael Bezerra do Vale** *Data Scientist in Career Transition | Systems Analysis & Development Background*
->>>>>>> Stashed changes
+
