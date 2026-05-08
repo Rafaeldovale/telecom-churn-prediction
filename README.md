@@ -16,8 +16,8 @@ During the analysis, we identified the main churn drivers:
 - **Financial Impact:** Churn is more frequent among customers with higher monthly charges.
 
 <p align="center">
-  <img src="images/churn_by_contract_type.png" width="400" alt="Churn by Contract" />
-  <img src="images/monthly_charges_boxplot.png" width="400" alt="Charges Distribution" />
+  <img src="../images/churn_by_contract_type.png" width="400" alt="Churn by Contract" />
+  <img src="../images/monthly_charges_boxplot.png" width="400" alt="Charges Distribution" />
 </p>
 
 ## 🤖 Modeling & Performance
